@@ -5,9 +5,6 @@
     src: url('../../public/font/BMHANNAPro.ttf') format('truetype');
 }
 
-* {
-    font-family: "hanna";
-}
 
 h1 {
     /* font-family: 'hello bride script', sans-serif; */
