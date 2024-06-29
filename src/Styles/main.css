@@ -15,6 +15,13 @@
     background: rgba(11, 103, 189, 0.5);
 }
 
+.waSans {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
 body {
     background:rgb(2, 8, 19);
 }

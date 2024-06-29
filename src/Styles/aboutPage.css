@@ -30,14 +30,6 @@
     }
 }
 
-/* .pageInner1 {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    overflow-x: hidden;
-    overflow-y: scroll;
-} */
-
 @media (max-height: 960px) {
     .pageInner1 {
         height: 100vh;

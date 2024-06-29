@@ -1,0 +1,12 @@
+html, body {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  

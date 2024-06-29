@@ -4,7 +4,13 @@
     font-family: 'hanna';
     src: url('../../public/font/BMHANNAPro.ttf') format('truetype');
 }
-
+body{
+    -ms-overflow-style: none;
+    }
+    
+::-webkit-scrollbar {
+    display: none;
+}
 
 h1 {
     /* font-family: 'hello bride script', sans-serif; */
@@ -13,13 +19,6 @@ h1 {
     transform: translate(-80px, 5px);
     z-index: -1;
     margin-bottom: 20px;
-}
-
-@media (max-width: 770px) {
-    h1 {
-        font-size: 50px;
-        transform: translate(10px, 0px);
-    }
 }
 
 @media (max-width: 600px) {
@@ -64,9 +63,27 @@ h1 {
 }
 
 @media (max-width: 770px) {
+    h1 {
+        font-size: 50px;
+        transform: translate(10px, 0px);
+    }
     .project {
         width: 280px;
         height: 190px;
+    }
+    .projBottom a {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    .projBottom img {
+        width: 8px;
+        height: 8px; 
+    }
+    .project h2 {
+        font-size: 25px;
+    }
+    .project h5 {
+        font-size: 12px;
     }
 }
 
@@ -74,6 +91,19 @@ h1 {
     .project {
         width: 250px;
         height: 180px;
+    }
+    .projTop {
+        margin: 0px 0px 10px 45px;
+    }
+    .projBottom img {
+        width: 7px;
+        height: 7px; 
+    }
+    .projects h2 {
+        font-size: 22px;
+    }
+    .projects h5 {
+        font-size: 10px;
     }
 }
 
@@ -108,11 +138,6 @@ h1 {
     margin: 0px 0px 10px 45px;
 }
 
-@media (max-width: 600px) { 
-    .projTop {
-        margin: 0px 0px 10px 45px;
-    }
-}
 
 .projBottom {
     font-weight: 400;
@@ -135,13 +160,6 @@ h1 {
     align-items: center;
 }
 
-@media (max-width: 770px) {
-    .projBottom a {
-        font-size: 11px;
-        padding: 4px 6px;
-    }
-}
-
 .projBottom a:hover {
     background: rgba(255, 255, 255, 0.15);
 }
@@ -152,19 +170,6 @@ h1 {
     margin-left: 3px;
 }
 
-@media (max-width: 770px) {
-    .projBottom img {
-        width: 8px;
-        height: 8px; 
-    }
-}
-
-@media (max-width: 600px) { 
-    .projBottom img {
-        width: 7px;
-        height: 7px; 
-    }
-}
 
 .projects h2 {
     /* font-family: 'SBAggroB'; */
@@ -172,34 +177,12 @@ h1 {
     margin-right: 6px;
 }
 
-@media (max-width: 770px) {
-    .project h2 {
-        font-size: 25px;
-    }
-}
 
-@media (max-width: 600px) { 
-    .projects h2 {
-        font-size: 22px;
-    }
-}
 
 .projects h5 {
     margin-left: 40px;
     font-size: 13px;
     z-index: 4;
-}
-
-@media (max-width: 770px) {
-    .project h5 {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 600px) { 
-    .projects h5 {
-        font-size: 10px;
-    }
 }
 
 .icon {
